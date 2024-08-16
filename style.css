@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F3E5D7;
+	display: flex;
+    justify-content: center;
+    font-family: "Outfit";
+    color: #5F564D ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    height: auto;
+    padding: 40px 40px;
+    gap: 32px;
+}
+
+.top-image {
+    height: auto;
+    align-self: stretch;
+    border-radius: 12px;
+}
+
+h1 {
+    font-family: "Young Serif";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    color: #312E2C;
+    align-self: stretch;
+    padding-bottom: 24px;
+}
+
+.preparation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 16px;
+    border-radius: 12px;
+    background-color: #FFF7FB;
+    padding: 24px;
+}
+
+.preparation h3 {
+    color: #7A284E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    align-self: stretch;
+}
+
+.preparation li {
+    margin-left: 24px;
+    padding-bottom: 8px;
+}
+
+.bullet1 p {
+    color: #5F564D;
+    padding-left: 16px;
+    flex: 1 0 0;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 24px;
+}
+
+.ingredients h3 {
+    font-family:"Young Serif";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #854632;
+}
+
+.ingredients li {
+    margin-left: 24px;
+    padding-bottom: 8px;
+}
+
+.ingredients p {
+    color: #5F564D;
+    padding-left: 16px ;
+}
+
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 8px;
+    border-top: 1px solid #E3DDD7;
+}
+
+.instructions li {
+    padding-bottom: 8px;
+    margin-left: 24px;
+}
+
+.instructions h2 {
+    font-family: "Young Serif";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #854632;
+    padding:24px 0;
+}
+
+
+.text1 {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left:8px;
+    gap: 16px;
+}
+
+.text2 {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left:8px;
+    gap: 16px;
+}
+
+.text3 {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left:8px;
+    gap: 16px;
+}
+
+.text4 {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left:8px;
+    gap: 16px;
+}
+
+.text5 {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left:8px;
+    gap: 16px;
+}
+
+.text6 {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left:8px;
+    gap: 16px;
+}
+
+.number {
+    color: #854632;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.text {
+    padding-left: 8px;
+    flex: 1 0 0;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.nutrition {
+    display: inline;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 24px;
+}
+
+.nutrition h2 {
+    color: #854632;
+    font-family: "Young Serif";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    align-self: stretch;
+    border-top: 1px solid #E3DDD7;
+    padding:24px 0;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    align-self: stretch;
+    padding: 24px 0;
+}
+
+.row {
+    display: flex;
+    padding: 12px 32px;
+    border-top: 1px solid #E3DDD7;
+}
+
+.left {
+    flex: 1 0;
+    align-items: center;    
+    align-self: stretch;    
+}
+
+.right {
+    flex: 1 0;
+    align-items: right;    
+    align-self: stretch;
+    color: #854632;
+    font-weight: 700;
+}
+
+
+
